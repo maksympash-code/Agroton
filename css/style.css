@@ -36,7 +36,10 @@
 
 
 body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.35;
     color: #0E0D0D;
     background-color: #FDFDF0;
 }
@@ -47,12 +50,17 @@ body{
     margin: 0 auto;
 }
 
+.container-big{
+    max-width: 1840px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
 .header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
 }
 
@@ -72,4 +80,117 @@ body{
     color: #fff;
     background-color: #0E0D0D;
     border-radius: 50px;
+}
+
+
+.about{
+    margin-bottom: 180px;
+}
+
+.about__top{
+    text-align: center;
+    color: #FDFDF0;
+    background-image: url('../images/about-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-transform: uppercase;
+    min-height: 748px;
+}
+
+.about__title{
+    font-family: 'WorkSans-SemiBold', sans-serif;
+    font-size: 250px;
+    line-height: 0.9;
+    font-weight: 600;
+    padding-top: 85px;
+}
+
+.about__text{
+    font-family: 'WorkSans-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+
+.about__achievements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -55px;
+    margin-bottom: 90px;
+}
+
+.about__achievement{
+    border-radius: 20px;
+    background-color: #F4F4E7;
+    max-width: 580px;
+    padding: 14px 10px;
+    display: flex;
+    gap: 0 25px;
+}
+
+
+.about__achievement-imgbox{
+    min-width: 214px;
+    position: relative;
+}
+
+.about__achievement-arrow{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.about__achievement-title{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.about__achievement-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.text--bold{
+    font-weight: 600;
+}
+
+.text--color{
+    font-weight: 600;
+    color: #F2A531;
+}
+
+
+
+.about__stats{
+    display: flex;
+    margin-bottom: 70px;
+    background-color: #F4F4E7;
+    border-radius: 20px;
+    padding: 30px 18px;
+    justify-content: space-between;
+    gap: 0 90px;
+}
+
+.about__stats-item{
+    text-align: center;
+    width: 300px;
+}
+
+.about__stats-item dt{
+    font-family: 'WorkSans-SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about__stats-item dd{
+    margin: 0;
+    color: #0E0D0D;
+    font-size: 22px;
+    opacity: .7;
 }
