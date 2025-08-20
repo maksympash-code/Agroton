@@ -336,3 +336,30 @@ body{
     top: 3px;
     right: 4px;
 }
+
+
+.slogan{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 115px;
+
+}
+
+.slogan__text{
+    font-family: 'WorkSans-Medium', sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 40px;
+}
+
+.slogan__title{
+    font-family: 'WorkSans-SemiBold', sans-serif;
+    font-weight: 600;
+    color: #F2A531;
+    font-size: 300px;
+    line-height: 1;
+}
+
+.slogan__img{
+    margin-top: -145px;
+}
